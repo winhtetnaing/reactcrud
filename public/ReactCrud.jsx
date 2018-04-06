@@ -130,7 +130,7 @@ DeleteData(id){
 <div class="row">
 <div className="col-sm-12 col-md-12 "  > 
  <table className="table table-bordered table-hover table-striped"><tbody>
-   <tr><th><b>S.No</b></th><th><b>NAME</b></th><th><b>ADDRESS</b></th><th><b>EMAIL</b></th><th><b>CONTACT</b></th><th><b>Edit</b></th><th><b>Delete</b></th></tr>
+   <tr><th><b>S.No</b></th><th><b>NAME</b></th><th><b>Department/Team</b></th><th><b>EMAIL</b></th><th><b>CONTACT</b></th><th><b>Edit</b></th><th><b>Delete</b></th></tr>
     {this.state.data1.map((item, index) => (
         <tr key={index}>
            <td>{index+1}</td> 
