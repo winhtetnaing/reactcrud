@@ -6,7 +6,7 @@ var morgan = require("morgan");
 var db = require("./config.js");
 
 var app = express();
-var port = process.env.port || 8080;
+var port = process.env.port || 5000;
 var srcpath  =path.join(__dirname,'/public') ;
 app.use(express.static('public'));
 app.use(bodyParser.json({limit:'5mb'}));  
