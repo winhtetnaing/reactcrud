@@ -143,7 +143,7 @@ DeleteData(id){
            <button type="button" className="btn btn-success" onClick={(e) => {this.EditData(item)}}>Edit</button>    
           </td> 
           <td> 
-             <button type="button" className="btn btn-info" onClick={(e) => {this.DeleteData(item._id)}}>Delete</button>
+             <button type="button" className="btn btn-info" onClick={(e) => {this.DeleteData(item._id)}} disabled>Delete</button>
           </td> 
         </tr>
     ))}
