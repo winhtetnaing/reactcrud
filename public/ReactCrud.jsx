@@ -92,7 +92,7 @@ DeleteData(id){
     return ( 
 <div  className="container"  style={{marginTop:'50px'}}>      
        <p className="text-center" style={{fontSize:'18px'}}><b>      
-       Node.Js Training User Registration Form</b></p>
+       Training User Registration Form</b></p>
 
   <form>
   <div className="row">
@@ -104,7 +104,7 @@ DeleteData(id){
                 <input type="hidden" value={this.state.id}    name="id"  />
       </div>  
        <div className="form-group">
-                <label>Department / Team </label>
+                <label>Address </label>
                 <input type="text" name="address" className="form-control" value={this.state.address}  
                 onChange={ this.handleChange } />
                
@@ -116,7 +116,7 @@ DeleteData(id){
                
       </div> 
        <div className="form-group">
-                <label>Contact </label>
+                <label>Contact Phone </label>
                 <input type="text" name="contact" className="form-control" value={this.state.contact} 
                 onChange={ this.handleChange } />
                
@@ -130,7 +130,7 @@ DeleteData(id){
 <div class="row">
 <div className="col-sm-12 col-md-12 "  > 
  <table className="table table-bordered table-hover table-striped"><tbody>
-   <tr><th><b>S.No</b></th><th><b>NAME</b></th><th><b>Department/Team</b></th><th><b>EMAIL</b></th><th><b>CONTACT</b></th><th><b>Edit</b></th><th><b>Delete</b></th></tr>
+   <tr><th><b>S.No</b></th><th><b>NAME</b></th><th><b>ADDRESS</b></th><th><b>EMAIL</b></th><th><b>CONTACT PHONE</b></th><th><b>Edit</b></th><th><b>Delete</b></th></tr>
     {this.state.data1.map((item, index) => (
         <tr key={index}>
            <td>{index+1}</td> 
