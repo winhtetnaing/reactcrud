@@ -92,7 +92,7 @@ DeleteData(id){
     return ( 
 <div  className="container"  style={{marginTop:'50px'}}>      
        <p className="text-center" style={{fontSize:'18px'}}><b>      
-       Training User Registration Form</b></p>
+       E-Training User Registration Form</b></p>
 
   <form>
   <div className="row">
