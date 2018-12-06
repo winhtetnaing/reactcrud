@@ -7,7 +7,6 @@ var StudentAll = React.createClass({
    handleChange: function(e) {
         this.setState({[e.target.name]: e.target.value});
     },
-
   componentDidMount() {
  
     $.ajax({
