@@ -2,7 +2,7 @@
 var StudentAll = React.createClass({ 
 
   getInitialState: function () {
-    return { name: '' ,address: '',email:'',contact:'',id:'',Buttontxt:'Save',Buttonshow:'View', data1: []};
+    return { name: '' ,address: '',email:'',contact:'',id:'',Buttontxt:'Save', data1: []};
   },
    handleChange: function(e) {
         this.setState({[e.target.name]: e.target.value});
@@ -58,8 +58,6 @@ DeleteData(id){
    var Url="";
    if(this.state.Buttontxt=="Save"){
       Url="/api/savedata";
-       }else if(this.state.Buttonshow=="View"){
-        React.render( <App /> , document.getElementById('app'))
        }
       else{
       Url="/api/Updatedata";
