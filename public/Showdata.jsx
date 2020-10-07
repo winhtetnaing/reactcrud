@@ -1,4 +1,4 @@
-var StudentAll = React.createClass({ 
+var App = React.createClass({ 
 
   getInitialState: function () {
     return { name: '' ,address: '',email:'',contact:'',id:'',Buttontxt:'Save', data1: []};
@@ -60,4 +60,6 @@ var StudentAll = React.createClass({
   }
 });
 
-ReactDOM.render(<showprice  />, document.getElementById('root'))
+ReactDOM.render( <App /> , document.getElementById('app'))
+
+
