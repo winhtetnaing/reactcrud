@@ -121,8 +121,7 @@ DeleteData(id){
                
       </div> 
       <div class="form-group">                
-                <input className="btn btn-primary" type="button" value={this.state.Buttontxt} onClick={this.handleClick} /><br>
-                <input className="btn btn-primary" type="button" value={this.state.Buttonshow} onClick={this.handleClick} />
+                <input className="btn btn-primary" type="button" value={this.state.Buttontxt} onClick={this.handleClick} />
       </div>
 </div>
 </div>
