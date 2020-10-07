@@ -1,4 +1,4 @@
-var App = React.createClass({ 
+var Showdata = React.createClass({ 
 
   getInitialState: function () {
     return { name: '' ,address: '',email:'',contact:'',id:'',Buttontxt:'Save', data1: []};
@@ -60,6 +60,6 @@ var App = React.createClass({
   }
 });
 
-ReactDOM.render( <App /> , document.getElementById('app'))
+ReactDOM.render( <Showdata /> , document.getElementById('showdata'))
 
 
