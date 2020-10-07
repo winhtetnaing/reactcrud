@@ -60,7 +60,7 @@ var Showdata = React.createClass({
   }
 });
 
-ReactDOM.render( <Showdata /> , document.getElementById('root'))
+ReactDOM.render( <Showdata /> , document.getElementById(' showdata'))
 
 
 
